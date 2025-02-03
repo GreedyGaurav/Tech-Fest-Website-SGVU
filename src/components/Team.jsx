@@ -37,7 +37,7 @@ const Team = () => {
       <div className="container px-4 mx-auto">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="mb-8 text-4xl font-bold text-white sm:text-5xl">
-            Web Team
+            Technical Team
           </h2>
 
           <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
