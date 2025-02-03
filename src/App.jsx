@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import AnimatedBackground from "./components/AnimatedBackground";
 import LoadingSpinner from "./components/LoadingSpinner";
 import Footer from "./components/Footer"; // Import the Footer component
+import { Analytics } from "@vercel/analytics/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,6 +48,7 @@ function App() {
   return (
     <div className="relative min-h-screen font-sans text-white">
       <AnimatedBackground />
+      <Analytics />
       <div className="relative z-10">
         <Navbar />
         <main>
