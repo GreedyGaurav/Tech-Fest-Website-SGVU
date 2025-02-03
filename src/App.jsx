@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState, lazy, Suspense } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -54,7 +55,6 @@ function App() {
               <Home />
               <Suspense fallback={<LoadingSpinner />}>
                 <About />
-                <Team />
                 <Venue
                   onEventInfoClick={(event) =>
                     handleViewChange("details", event)
@@ -75,6 +75,9 @@ function App() {
             </Suspense>
           )}
         </main>
+        <Suspense fallback={<LoadingSpinner />}>
+          <Team />
+        </Suspense>
         <Footer /> {/* Include the Footer component */}
       </div>
     </div>

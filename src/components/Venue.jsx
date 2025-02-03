@@ -20,7 +20,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/3.avif",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -32,7 +33,7 @@ const events = [
       "Learn about cutting-edge AI technologies from industry experts.",
     time: "10:00 AM - 12:00 PM",
     registerUrl:
-      "https://unstop.com/p/code-crunch-india-is-innovating-suresh-gyan-vihar-university-1380259",
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/1.avif",
     details: "Detailed information about the AI Innovation Workshop...",
   },
@@ -42,7 +43,8 @@ const events = [
     location: "SGVU",
     description: "Showcase your robotics skills and win exciting prizes.",
     time: "2:00 PM - 4:00 PM",
-    registerUrl: "https://roboticscompetition.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/2.jpg",
     details: "Detailed information about the Robotics Competition...",
   },
@@ -54,7 +56,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/4.jpg",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -65,7 +68,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/5.png",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -76,7 +80,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/6.png",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -87,7 +92,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/7.jpg",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -98,7 +104,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/8.png",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -109,7 +116,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/9.webp",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -120,7 +128,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/10.jpg",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -131,7 +140,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/11.webp",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -142,7 +152,8 @@ const events = [
     description:
       "Participate in a 24-hour IoT hackathon and build smart solutions.",
     time: "5:00 PM - 6:00 PM",
-    registerUrl: "https://iothackathon.com/register",
+    registerUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/12.png",
     details: "Detailed information about the IoT Hackathon...",
   },
@@ -174,15 +185,15 @@ const Venue = ({ onEventInfoClick }) => {
 
   return (
     <section ref={sectionRef} id="events" className="min-h-screen py-20 ">
-      <div className="container mx-auto px-6">
+      <div className="container px-6 mx-auto">
         <h2 className="mb-12 text-4xl font-bold text-center text-white sm:text-5xl">
-          Explore Our Exciting Events
+          Explore Our <u>Exciting Events</u>
         </h2>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
           {events.map((event) => (
             <Card
               key={event.id}
-              className="overflow-hidden shadow-lg transform bg-black hover:scale-105 hover:shadow-2xl transition-transform duration-300 text-blue-100"
+              className="overflow-hidden text-blue-100 transition-transform duration-300 transform bg-black shadow-lg hover:scale-105 hover:shadow-2xl"
             >
               <img
                 src={event.imageUrl}
@@ -201,7 +212,7 @@ const Venue = ({ onEventInfoClick }) => {
                   Time: {event.time}
                 </p>
               </CardContent>
-              <CardFooter className="p-6 flex gap-4">
+              <CardFooter className="flex gap-4 p-6">
                 <Button
                   className="w-full py-2 text-sm font-medium bg-blue-600 rounded hover:bg-blue-700"
                   onClick={() => window.open(event.registerUrl, "_blank")}

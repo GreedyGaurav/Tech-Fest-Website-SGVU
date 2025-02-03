@@ -1,11 +1,12 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="py-12 bg-black text-neutral-200">
+    <footer className="py-12 bg-gray-900 text-neutral-200">
       <div className="container px-6 mx-auto md:px-12 lg:px-16">
-        {/* Grid Layout - Stacked on Small Screens, Two Columns on Larger Screens */}
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        {/* Grid Layout - Three Columns on Larger Screens */}
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-24">
           {/* Left Section - University Info */}
           <div className="text-center md:text-left">
             <h3 className="mb-4 text-lg font-semibold text-gray-400">
@@ -20,52 +21,61 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Right Section - Socials (Text Centered Above Icons) */}
-          <div className="flex flex-col items-center md:items-end">
-            <h3 className="mb-2 text-lg font-semibold text-gray-400">
-              SOCIALS
+          {/* Center Section - Organizing Committee */}
+          <div className="text-center md:text-left">
+            <h3 className="mb-4 text-lg font-semibold text-gray-400">
+              ORGANIZING COMMITTEE
             </h3>
-            <div className="flex space-x-6 text-2xl">
-              <a
-                href="https://www.facebook.com/sureshgyanviharuniversityjaipur/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition duration-300 hover:text-white"
-              >
-                <i className="fab fa-facebook-square"></i>
-              </a>
-              <a
-                href="https://x.com/SureshGyanVihar"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition duration-300 hover:text-white"
-              >
-                <i className="fab fa-twitter-square"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/sureshgyanvihar.university/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition duration-300 hover:text-white"
-              >
-                <i className="fab fa-instagram-square"></i>
-              </a>
-            </div>
+            <p>Prof.(Dr.) Manish Sharma - +91 995 069 6855</p>
+            <p>Prof.(Dr.) Neeraj Kumar - +91 941 427 9664</p>
+          </div>
+
+          {/* Right Section - Contact Us */}
+          <div className="text-center md:text-left">
+            <h3 className="mb-4 text-lg font-semibold text-gray-400">
+              CONTACT US
+            </h3>
+            <p>Mr. Zaid Khan - 7870048760</p>
+            <p>Ketan Bhaskar - 6201519951</p>
+            <p>Raj Gaurav - 9341547640</p>
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="mt-12 text-sm text-center text-gray-400">
-          <p>
-            &copy; {new Date().getFullYear()} Suresh Gyan Vihar University. All
-            Rights Reserved.
-          </p>
-          <p className="mt-2">
-            <a href="/privacy-policy" className="hover:text-white">
+        {/* Socials Section */}
+        <div className="mt-8 text-center">
+          <h3 className="mb-2 text-lg font-semibold text-gray-400">SOCIALS</h3>
+          <div className="flex justify-center space-x-6 text-2xl">
+            <a
+              href="https://www.facebook.com/sureshgyanviharuniversityjaipur/"
+              className="hover:text-white"
+            >
+              <i className="fab fa-facebook-square"></i>
+            </a>
+            <a
+              href="https://x.com/SureshGyanVihar"
+              className="hover:text-white"
+            >
+              <i className="fab fa-twitter-square"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/sureshgyanviharuniversity/"
+              className="hover:text-white"
+            >
+              <i className="fab fa-instagram-square"></i>
+            </a>
+          </div>
+        </div>
+
+        {/* Footer Bottom */}
+        <div className="mt-6 text-center text-gray-500">
+          <p>© 2025 Suresh Gyan Vihar University. All Rights Reserved.</p>
+          <p className="mt-1">
+            <a href="#" className="hover:text-white">
               Privacy Policy
             </a>{" "}
-            *{" "}
-            <a href="/terms-of-service" className="hover:text-white">
+            •
+            <a href="#" className="hover:text-white">
+              {" "}
               Terms of Service
             </a>
           </p>
