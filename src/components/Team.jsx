@@ -8,12 +8,13 @@ const teamMembers = [
     role: "Developer",
     image: "/assets/images/kavya.jpg",
   },
-  { name: "Ayush Kumar", role: "Developer", image: "/assets/images/ayush.jpg" },
   {
     name: "Gaurav Sharma",
     role: "Developer",
     image: "/assets/images/gaurav.jpg",
   },
+  { name: "Ayush Kumar", role: "Developer", image: "/assets/images/ayush.jpg" },
+
   { name: "Ekta Verma", role: "Developer", image: "/assets/images/ekta.jpg" },
 ];
 
