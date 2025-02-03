@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useEffect, useRef } from "react";
 import {
   Card,
@@ -18,35 +19,33 @@ const events = [
     title: "BGMI Gaming",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Join the ultimate BGMI gaming showdown! Compete, conquer, and claim victory in an intense battle for glory!",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/3.avif",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "Step into the world of BGMI and compete in an adrenaline-pumping tournament! Players will showcase their strategic thinking, sharp reflexes, and teamwork to secure a place at the top. Whether you're a pro or a beginner, join for a fun-filled battle for the ultimate victory!",
   },
   {
     id: 2,
     title: "Project and Model Expo",
     location: "SGVU",
     description:
-      "Learn about cutting-edge AI technologies from industry experts.",
-    time: "10:00 AM - 12:00 PM",
+      "Showcase your innovation at the Project & Model Expo! Present your ideas, inspire minds, and demonstrate creativity.",
+    time: "9:00 AM - 05:00 PM",
     registerUrl:
       "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/1.avif",
-    details: "Detailed information about the AI Innovation Workshop...",
+    details: "The Project and Model Expo is an opportunity for students to showcase their innovative creations. Whether it's a technical project or a creative model, participants will present their ideas and prototypes, demonstrating their ingenuity. It's a platform to explore new technologies, exchange ideas, and inspire others.",
   },
   {
     id: 3,
     title: "Innovative Ideas",
     location: "SGVU",
-    description: "Showcase your robotics skills and win exciting prizes.",
-    time: "2:00 PM - 4:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+    description: "Unleash creativity at the Innovative Ideas event! Present groundbreaking concepts and inspire the future with your vision.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/2.jpg",
-    details: "Detailed information about the Robotics Competition...",
+    details: "The Innovative Ideas event invites participants to present creative and forward-thinking solutions to modern challenges. Whether it's technology, sustainability, or community-focused innovation, the event celebrates fresh ideas that have the potential to shape the future. This is your chance to turn your concepts into reality.",
   },
 
   {
@@ -54,108 +53,99 @@ const events = [
     title: "Robotics Competition",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Gear up for the Robotics Competition! Build, battle, and showcase your engineering skills in an exciting tech showdown.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/4.jpg",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "In the Robotics Competition, teams will design, build, and program robots to perform specific tasks and challenges. It's a test of technical skill, teamwork, and creativity, where participants push the boundaries of engineering and robotics to create functional and innovative machines.",
   },
   {
     id: 5,
     title: "Code Crunch",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Test your coding skills at Code Crunch! Solve challenges, compete with the best, and prove your programming prowess.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/5.png",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "Code Crunch is a coding challenge where participants tackle algorithmic puzzles and real-world problems using programming languages. The event is designed to test problem-solving abilities, speed, and coding proficiency in a competitive environment. Whether you're a beginner or a seasoned coder, it's the perfect platform to show off your skills.",
   },
   {
     id: 6,
     title: "Poster Maker",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Unleash your creativity in the Poster Maker contest! Design, inspire, and showcase your artistic vision.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/6.png",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "The Poster Maker competition invites creative minds to design visually striking and informative posters on a chosen theme. Participants will use their design skills to communicate messages through impactful visuals, typography, and color schemes. It's a great way to explore digital and print media design.",
   },
   {
     id: 7,
     title: "Flavour of India",
-    location: "Room C, Innovation Center",
+    location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Experience the rich flavors of India! Celebrate diverse cuisines, traditions, and cultural heritage in a delightful feast.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/7.jpg",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "Flavour of India brings the rich diversity of Indian cuisine to life! Participants will showcase traditional and modern dishes from across the country, offering a taste of different cultures, flavors, and culinary techniques. It's a celebration of India’s food heritage, featuring everything from street food to gourmet delights.",
   },
   {
     id: 8,
     title: "Waste to Worth",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Turn trash into treasure at Waste to Worth! Showcase innovative ideas for recycling and sustainability.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/8.png",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "Waste to Worth is all about sustainability and recycling. Participants will come up with creative solutions to transform waste materials into valuable products. The event promotes environmental consciousness and innovation in recycling, offering a platform to present ideas that reduce waste and promote sustainability.",
   },
   {
     id: 9,
     title: "Rider Mania",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Feel the thrill at Rider Mania! A celebration of speed, adventure, and the spirit of biking.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/9.webp",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "Rider Mania is an exciting event for biking enthusiasts! Whether it's a race, stunt performance, or group ride, participants will show off their riding skills and passion for motorcycles. It’s a celebration of freedom, adventure, and the biking community, bringing together riders from all over.",
   },
   {
     id: 10,
     title: "Character Design Competition",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Bring your imagination to life at the Character Design Competition! Create, sketch, and showcase your unique characters.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/10.jpg",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "The Character Design Competition invites artists to create unique, original characters for various media. Participants will use their imagination and artistic skills to design characters with distinct personalities, visual styles, and backstories. It’s a chance to bring your creations to life and showcase your design talent.",
   },
   {
     id: 11,
     title: "Bridge Building Competition",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Test your engineering skills at the Bridge Building Competition! Design, construct, and compete for the strongest and most innovative bridge.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/11.webp",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "The Bridge Building Competition challenges participants to design and construct functional bridges using limited resources. The focus is on engineering, creativity, and problem-solving skills. Participants will test their bridges for strength, durability, and efficiency, competing for the title of the best-designed and strongest bridge.",
   },
   {
     id: 12,
     title: "3D Printing Design",
     location: "SGVU",
     description:
-      "Participate in a 24-hour IoT hackathon and build smart solutions.",
-    time: "5:00 PM - 6:00 PM",
-    registerUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
+      "Unleash your creativity at the 3D Printing Design competition! Transform your ideas into reality with cutting-edge technology.",
+    time: "9:00 AM - 5:00 PM",
+    registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
     imageUrl: "/assets/images/12.png",
-    details: "Detailed information about the IoT Hackathon...",
+    details: "In the 3D Printing Design competition, participants will design models that are brought to life through 3D printing technology. It's an opportunity to explore the world of prototyping, digital fabrication, and design innovation. Whether it's art, engineering, or product design, this event showcases the potential of 3D printing to transform ideas into tangible objects.",
   },
 ];
 
@@ -187,7 +177,7 @@ const Venue = ({ onEventInfoClick }) => {
     <section ref={sectionRef} id="events" className="min-h-screen py-20 ">
       <div className="container px-6 mx-auto">
         <h2 className="mb-12 text-4xl font-bold text-center text-white sm:text-5xl">
-          Explore Our <u>Exciting Events</u>
+          Explore Our Exciting Events
         </h2>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
           {events.map((event) => (

@@ -35,7 +35,7 @@ const Home = () => {
           ref={titleRef}
           className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r from-blue-200 to-purple-500"
         >
-          India <span className="text-yellow-400">is</span> Innovation
+          India <span className="text-yellow-400">is</span> Innovating
         </h1>
         <p
           ref={subtitleRef}

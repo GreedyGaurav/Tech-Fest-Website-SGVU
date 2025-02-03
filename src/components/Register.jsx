@@ -72,8 +72,8 @@ const Register = () => {
       className="py-20 section bg-gradient-to-b from-cosmic-900 to-space-900"
     >
       <div className="container px-4 mx-auto">
-        <h2 className="mb-12 text-3xl font-bold text-center text-white sm:text-4xl">
-          Event Location
+      <h2 className="mb-12 text-4xl font-bold text-center text-white sm:text-5xl">
+          Event Location 
         </h2>
         <div className="flex flex-col gap-8 lg:flex-row">
           {/* <form

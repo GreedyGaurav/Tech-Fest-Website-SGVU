@@ -7,7 +7,6 @@ import Home from "./components/Home";
 import AnimatedBackground from "./components/AnimatedBackground";
 import LoadingSpinner from "./components/LoadingSpinner";
 import Footer from "./components/Footer"; // Import the Footer component
-import { Analytics } from "@vercel/analytics/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -48,7 +47,6 @@ function App() {
   return (
     <div className="relative min-h-screen font-sans text-white">
       <AnimatedBackground />
-      <Analytics />
       <div className="relative z-10">
         <Navbar />
         <main>
@@ -58,12 +56,9 @@ function App() {
               <Suspense fallback={<LoadingSpinner />}>
                 <About />
                 <Venue
-                  onEventInfoClick={(event) =>
-                    handleViewChange("details", event)
-                  }
+                  onEventInfoClick={(event) => handleViewChange("details", event)}
                 />
                 <Register />
-                {/* <Contact /> */}
               </Suspense>
             </>
           )}
@@ -77,10 +72,16 @@ function App() {
             </Suspense>
           )}
         </main>
-        <Suspense fallback={<LoadingSpinner />}>
-          <Team />
-        </Suspense>
-        <Footer /> {/* Include the Footer component */}
+
+        {/* Conditionally render Team and Footer only if on Home page */}
+        {currentView === "home" && (
+          <>
+            <Suspense fallback={<LoadingSpinner />}>
+              <Team />
+            </Suspense>
+            <Footer />
+          </>
+        )}
       </div>
     </div>
   );

@@ -35,9 +35,9 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-semibold text-gray-400">
               CONTACT US
             </h3>
-            <p>Mr. Zaid Khan - 7870048760</p>
-            <p>Ketan Bhaskar - 6201519951</p>
-            <p>Raj Gaurav - 9341547640</p>
+            <p>Mr. Zaid Khan - +91 787 004 8760</p>
+            <p>Ketan Bhaskar - +91 620 151 9951</p>
+            <p>Raj Gaurav - +91 934 154 7640</p>
           </div>
         </div>
 
@@ -45,22 +45,13 @@ const Footer = () => {
         <div className="mt-8 text-center">
           <h3 className="mb-2 text-lg font-semibold text-gray-400">SOCIALS</h3>
           <div className="flex justify-center space-x-6 text-2xl">
-            <a
-              href="https://www.facebook.com/sureshgyanviharuniversityjaipur/"
-              className="hover:text-white"
-            >
+            <a href="https://www.facebook.com/sureshgyanviharuniversityjaipur/" className="hover:text-white">
               <i className="fab fa-facebook-square"></i>
             </a>
-            <a
-              href="https://x.com/SureshGyanVihar"
-              className="hover:text-white"
-            >
+            <a href="https://x.com/SureshGyanVihar" className="hover:text-white">
               <i className="fab fa-twitter-square"></i>
             </a>
-            <a
-              href="https://www.instagram.com/sureshgyanviharuniversity/"
-              className="hover:text-white"
-            >
+            <a href="https://www.instagram.com/sureshgyanviharuniversity/" className="hover:text-white">
               <i className="fab fa-instagram-square"></i>
             </a>
           </div>
@@ -70,14 +61,8 @@ const Footer = () => {
         <div className="mt-6 text-center text-gray-500">
           <p>© 2025 Suresh Gyan Vihar University. All Rights Reserved.</p>
           <p className="mt-1">
-            <a href="#" className="hover:text-white">
-              Privacy Policy
-            </a>{" "}
-            •
-            <a href="#" className="hover:text-white">
-              {" "}
-              Terms of Service
-            </a>
+            <a href="#" className="hover:text-white">Privacy Policy</a> • 
+            <a href="#" className="hover:text-white"> Terms of Service</a>
           </p>
         </div>
       </div>

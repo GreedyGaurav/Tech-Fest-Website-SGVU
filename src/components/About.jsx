@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -54,10 +55,10 @@ const About = () => {
 
   return (
     <section ref={sectionRef} id="about" className="py-20 section">
-      <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
-        <h2 className="mb-12 text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-blue-100 hover:scale-110 hover:text-blue-300 transition-transform duration-300">
-          About the Event
-        </h2>
+      <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+      <h2 className="mb-8 text-4xl font-bold text-center text-white sm:text-5xl">
+            About The Event
+          </h2>
 
         {/* First image with text */}
         <div className="flex flex-col items-center justify-between space-y-8 lg:flex-row lg:space-y-0 lg:space-x-12">
@@ -67,16 +68,16 @@ const About = () => {
               alt="India is Innovating Event"
               className="w-full h-[250px] sm:h-[300px] object-cover rounded-lg shadow-xl hover:scale-105 hover:shadow-2xl transition-transform duration-300"
             />
-            <p className="mt-4 text-sm sm:text-base italic text-center text-blue-300 hover:text-blue-100 transition-colors duration-300">
+            <p className="mt-4 text-sm italic text-center text-blue-300 transition-colors duration-300 sm:text-base hover:text-blue-100">
               Experience the future of innovation at our event
             </p>
           </div>
           <div className="space-y-6 lg:w-1/2">
             <div className="content-block">
-              <h3 className="mb-3 text-xl sm:text-2xl font-semibold text-blue-200 hover:text-blue-100 transition-colors duration-300">
+              <h3 className="mb-3 text-xl font-semibold text-blue-200 transition-colors duration-300 sm:text-2xl hover:text-blue-100">
                 Innovating for Tomorrow
               </h3>
-              <p className="text-base sm:text-lg text-blue-200 hover:text-blue-100 transition-colors duration-300">
+              <p className="text-base text-blue-200 transition-colors duration-300 sm:text-lg hover:text-blue-100">
                 "India is Innovating" is a prestigious event showcasing the
                 cutting-edge innovations and technological advancements emerging
                 from India. This event brings together brilliant minds, industry
@@ -88,13 +89,13 @@ const About = () => {
         </div>
 
         {/* Second image with text */}
-        <div className="flex flex-col items-center justify-between space-y-8 lg:flex-row lg:space-y-0 lg:space-x-12 mt-16">
+        <div className="flex flex-col items-center justify-between mt-16 space-y-8 lg:flex-row lg:space-y-0 lg:space-x-12">
           <div className="space-y-6 lg:w-1/2">
             <div className="content-block">
-              <h3 className="mb-3 text-xl sm:text-2xl font-semibold text-blue-200 hover:text-blue-100 transition-colors duration-300">
+              <h3 className="mb-3 text-xl font-semibold text-blue-200 transition-colors duration-300 sm:text-2xl hover:text-blue-100">
                 A Hub of Creativity
               </h3>
-              <p className="text-base sm:text-lg text-blue-200 hover:text-blue-100 transition-colors duration-300">
+              <p className="text-base text-blue-200 transition-colors duration-300 sm:text-lg hover:text-blue-100">
                 Join us for an inspiring journey through India's innovation
                 landscape, featuring keynote speeches, panel discussions, and
                 interactive exhibitions that highlight the country's
@@ -108,30 +109,30 @@ const About = () => {
               alt="India is Innovating Event"
               className="w-full h-[250px] sm:h-[300px] object-cover rounded-lg shadow-xl hover:scale-105 hover:shadow-2xl transition-transform duration-300"
             />
-            <p className="mt-4 text-sm sm:text-base italic text-center text-blue-300 hover:text-blue-100 transition-colors duration-300">
+            <p className="mt-4 text-sm italic text-center text-blue-300 transition-colors duration-300 sm:text-base hover:text-blue-100">
               Discover groundbreaking ideas in the tech industry
             </p>
           </div>
         </div>
 
         {/* Third image with text */}
-        <div className="flex flex-col items-center justify-between space-y-8 lg:flex-row lg:space-y-0 lg:space-x-12 mt-16">
+        <div className="flex flex-col items-center justify-between mt-16 space-y-8 lg:flex-row lg:space-y-0 lg:space-x-12">
           <div className="space-y-6 lg:w-1/2">
             <img
               src="/assets/images/fest3.jpg"
               alt="India is Innovating Event"
               className="w-full h-[250px] sm:h-[300px] object-cover rounded-lg shadow-xl hover:scale-105 hover:shadow-2xl transition-transform duration-300"
             />
-            <p className="mt-4 text-sm sm:text-base italic text-center text-blue-300 hover:text-blue-100 transition-colors duration-300">
+            <p className="mt-4 text-sm italic text-center text-blue-300 transition-colors duration-300 sm:text-base hover:text-blue-100">
               Be part of the next big leap in innovation
             </p>
           </div>
           <div className="space-y-6 lg:w-1/2">
             <div className="content-block">
-              <h3 className="mb-3 text-xl sm:text-2xl font-semibold text-blue-200 hover:text-blue-100 transition-colors duration-300">
+              <h3 className="mb-3 text-xl font-semibold text-blue-200 transition-colors duration-300 sm:text-2xl hover:text-blue-100">
                 Networking Opportunities
               </h3>
-              <p className="text-base sm:text-lg text-blue-200 hover:text-blue-100 transition-colors duration-300">
+              <p className="text-base text-blue-200 transition-colors duration-300 sm:text-lg hover:text-blue-100">
                 Connect with like-minded innovators, potential collaborators,
                 and industry experts. Our event provides ample networking
                 opportunities to foster partnerships and drive innovation
