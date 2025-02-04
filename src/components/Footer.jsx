@@ -16,9 +16,18 @@ const Footer = () => {
             <p>Jaipur, Rajasthan - 302017</p>
             <p className="mt-2">
               <a href="mailto:info@gyanvihar.org" className="hover:text-white">
-                gvset@mygyanvihar.com
+                info@gyanvihar.org
               </a>
             </p>
+
+            {/* Organizing Secretary */}
+            <div className="mt-6">
+              <h3 className="mb-4 text-lg font-semibold text-gray-400">
+                ORGANIZING SECRETARY
+              </h3>
+              <p>Dr. Manish Sharma</p>
+              <p>Principal GVSET</p>
+            </div>
           </div>
 
           {/* Center Section - Organizing Committee */}
@@ -26,9 +35,8 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-semibold text-gray-400">
               ORGANIZING COMMITTEE
             </h3>
-            <p>Dr. Neeraj Kumar - +91 941 427 9664</p>
-            <p>Dr. Sandhya Sharma - +91 988 791 1666</p>
-            <p>Dr. Ravindra Budania - +91 701 432 6092</p>
+            <p>Prof.(Dr.) Manish Sharma - +91 995 069 6855</p>
+            <p>Prof.(Dr.) Neeraj Kumar - +91 941 427 9664</p>
           </div>
 
           {/* Right Section - Contact Us */}
@@ -39,16 +47,16 @@ const Footer = () => {
             <p>Mr. Zaid Khan - +91 787 004 8760</p>
             <p>Ketan Bhaskar - +91 620 151 9951</p>
             <p>Raj Gaurav - +91 934 154 7640</p>
-          </div>
-        </div>
 
-        {/* New Section - Organizing Secretary */}
-        <div className="mt-8 text-center md:text-left">
-          <h3 className="mb-4 text-lg font-semibold text-gray-400">
-            ORGANIZING SECRETARY
-          </h3>
-          <p>Dr. Manish Sharma</p>
-          <p>Principal GVSET</p>
+            {/* Technical Advisor */}
+            <div className="mt-6">
+              <h3 className="mb-4 text-lg font-semibold text-gray-400">
+                TECHNICAL ADVISOR
+              </h3>
+              <p>Dr. Sohit Agarwal</p>
+              <p>HOD CEIT</p>
+            </div>
+          </div>
         </div>
 
         {/* Socials Section */}
