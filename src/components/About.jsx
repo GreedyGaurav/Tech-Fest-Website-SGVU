@@ -56,15 +56,15 @@ const About = () => {
   return (
     <section ref={sectionRef} id="about" className="py-20 section">
       <div className="container px-4 mx-auto sm:px-6 lg:px-8">
-      <h2 className="mb-8 text-4xl font-bold text-center text-white sm:text-5xl">
-            About The Event
-          </h2>
+        <h2 className="mb-8 text-4xl font-bold text-center text-white sm:text-5xl">
+          About The Event
+        </h2>
 
         {/* First image with text */}
         <div className="flex flex-col items-center justify-between space-y-8 lg:flex-row lg:space-y-0 lg:space-x-12">
           <div className="space-y-6 lg:w-1/2">
             <img
-              src="/assets/images/fest1.jpg"
+              src="/assets/images/festf.jpg"
               alt="India is Innovating Event"
               className="w-full h-[250px] sm:h-[300px] object-cover rounded-lg shadow-xl hover:scale-105 hover:shadow-2xl transition-transform duration-300"
             />
