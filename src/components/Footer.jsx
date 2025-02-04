@@ -10,33 +10,29 @@ const Footer = () => {
           {/* Left Section - University Info */}
           <div className="text-center md:text-left">
             <h3 className="mb-4 text-lg font-semibold text-gray-400">
-              SURESH GYAN VIHAR UNIVERSITY
+              ORGANIZING SECRETARY
             </h3>
-            <p>SGVU, Mahal, Jagatpura</p>
-            <p>Jaipur, Rajasthan - 302017</p>
-            <p className="mt-2">
-              <a href="mailto:info@gyanvihar.org" className="hover:text-white">
-                info@gyanvihar.org
-              </a>
-            </p>
+            <p>Prof.(Dr.) Manish Sharma</p>
+            <p>Principal GVSET</p>
+            <p className="mt-2"></p>
 
             {/* Organizing Secretary */}
             <div className="mt-6">
               <h3 className="mb-4 text-lg font-semibold text-gray-400">
-                ORGANIZING SECRETARY
+                ORGANIZING COMMITTEE
               </h3>
-              <p>Dr. Manish Sharma</p>
-              <p>Principal GVSET</p>
+              <p>Prof.(Dr.) Manish Sharma - +91 995 069 6855</p>
+              <p>Prof.(Dr.) Neeraj Kumar - +91 941 427 9664</p>
             </div>
           </div>
 
           {/* Center Section - Organizing Committee */}
           <div className="text-center md:text-left">
             <h3 className="mb-4 text-lg font-semibold text-gray-400">
-              ORGANIZING COMMITTEE
+              TECHNICAL ADVISOR
             </h3>
-            <p>Prof.(Dr.) Manish Sharma - +91 995 069 6855</p>
-            <p>Prof.(Dr.) Neeraj Kumar - +91 941 427 9664</p>
+            <p>Prof.(Dr.) Sohit Agarwal</p>
+            <p>HOD-CSE</p>
           </div>
 
           {/* Right Section - Contact Us */}
@@ -51,10 +47,13 @@ const Footer = () => {
             {/* Technical Advisor */}
             <div className="mt-6">
               <h3 className="mb-4 text-lg font-semibold text-gray-400">
-                TECHNICAL ADVISOR
+                SURESH GYAN VIHAR UNIVERSITY
               </h3>
-              <p>Dr. Sohit Agarwal</p>
-              <p>HOD CEIT</p>
+              <p>SGVU, Mahal, Jagatpura</p>
+              <p>Jaipur, Rajasthan - 302017</p>
+              <a href="mailto:info@gyanvihar.org" className="hover:text-white">
+                info@gyanvihar.org
+              </a>
             </div>
           </div>
         </div>
