@@ -28,7 +28,7 @@ const Footer = () => {
             </h3>
             <p>Dr. Neeraj Kumar - +91 941 427 9664</p>
             <p>Dr. Sandhya Sharma - +91 988 791 1666</p>
-            <p>Dr. Ravindra Budania - +91 742 492 4307</p>
+            <p>Dr. Ravindra Budania - +91 701 432 6092</p>
           </div>
 
           {/* Right Section - Contact Us */}
