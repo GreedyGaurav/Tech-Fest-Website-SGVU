@@ -23,7 +23,6 @@ const Footer = () => {
               </h3>
               <p>Prof.(Dr.) Neeraj Kumar - +91 941 427 9664</p>
               <p>Prof.(Dr.) Sandhya Sharma - +91 988 791 1666</p>
-
               <p>Prof.(Dr.) Ravindra Budania - +91 701 432 6092</p>
             </div>
           </div>
@@ -65,19 +64,22 @@ const Footer = () => {
           <h3 className="mb-2 text-lg font-semibold text-gray-400">SOCIALS</h3>
           <div className="flex justify-center space-x-6 text-2xl">
             <a
+              target="_blank"
               href="https://www.facebook.com/sureshgyanviharuniversityjaipur/"
               className="hover:text-white"
             >
               <i className="fab fa-facebook-square"></i>
             </a>
             <a
+              target="_blank"
               href="https://x.com/SureshGyanVihar"
               className="hover:text-white"
             >
               <i className="fab fa-twitter-square"></i>
             </a>
             <a
-              href="https://www.instagram.com/sureshgyanviharuniversity/"
+              target="_blank"
+              href="https://www.instagram.com/sureshgyanvihar.university/"
               className="hover:text-white"
             >
               <i className="fab fa-instagram-square"></i>
