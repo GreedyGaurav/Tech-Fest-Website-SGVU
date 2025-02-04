@@ -16,7 +16,7 @@ const Footer = () => {
             <p>Jaipur, Rajasthan - 302017</p>
             <p className="mt-2">
               <a href="mailto:info@gyanvihar.org" className="hover:text-white">
-                info@gyanvihar.org
+                gvset@mygyanvihar.com
               </a>
             </p>
           </div>
@@ -26,8 +26,9 @@ const Footer = () => {
             <h3 className="mb-4 text-lg font-semibold text-gray-400">
               ORGANIZING COMMITTEE
             </h3>
-            <p>Prof.(Dr.) Manish Sharma - +91 995 069 6855</p>
-            <p>Prof.(Dr.) Neeraj Kumar - +91 941 427 9664</p>
+            <p>Dr. Neeraj Kumar - +91 941 427 9664</p>
+            <p>Dr. Sandhya Sharma - +91 988 791 1666</p>
+            <p>Dr. Ravindra Budania - +91 742 492 4307</p>
           </div>
 
           {/* Right Section - Contact Us */}
@@ -41,17 +42,35 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* New Section - Organizing Secretary */}
+        <div className="mt-8 text-center md:text-left">
+          <h3 className="mb-4 text-lg font-semibold text-gray-400">
+            ORGANIZING SECRETARY
+          </h3>
+          <p>Dr. Manish Sharma</p>
+          <p>Principal GVSET</p>
+        </div>
+
         {/* Socials Section */}
         <div className="mt-8 text-center">
           <h3 className="mb-2 text-lg font-semibold text-gray-400">SOCIALS</h3>
           <div className="flex justify-center space-x-6 text-2xl">
-            <a href="https://www.facebook.com/sureshgyanviharuniversityjaipur/" className="hover:text-white">
+            <a
+              href="https://www.facebook.com/sureshgyanviharuniversityjaipur/"
+              className="hover:text-white"
+            >
               <i className="fab fa-facebook-square"></i>
             </a>
-            <a href="https://x.com/SureshGyanVihar" className="hover:text-white">
+            <a
+              href="https://x.com/SureshGyanVihar"
+              className="hover:text-white"
+            >
               <i className="fab fa-twitter-square"></i>
             </a>
-            <a href="https://www.instagram.com/sureshgyanviharuniversity/" className="hover:text-white">
+            <a
+              href="https://www.instagram.com/sureshgyanviharuniversity/"
+              className="hover:text-white"
+            >
               <i className="fab fa-instagram-square"></i>
             </a>
           </div>
@@ -61,8 +80,14 @@ const Footer = () => {
         <div className="mt-6 text-center text-gray-500">
           <p>© 2025 Suresh Gyan Vihar University. All Rights Reserved.</p>
           <p className="mt-1">
-            <a href="#" className="hover:text-white">Privacy Policy</a> • 
-            <a href="#" className="hover:text-white"> Terms of Service</a>
+            <a href="#" className="hover:text-white">
+              Privacy Policy
+            </a>{" "}
+            •
+            <a href="#" className="hover:text-white">
+              {" "}
+              Terms of Service
+            </a>
           </p>
         </div>
       </div>

@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AnimatedBackground from "./components/AnimatedBackground";
 import LoadingSpinner from "./components/LoadingSpinner";
-import Footer from "./components/Footer"; // Import the Footer component
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop"; // Import the Scroll-to-Top button
 import { Analytics } from "@vercel/analytics/react";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -15,7 +16,7 @@ const About = lazy(() => import("./components/About"));
 const Team = lazy(() => import("./components/Team"));
 const Venue = lazy(() => import("./components/Venue"));
 const Register = lazy(() => import("./components/Register"));
-const EventDetails = lazy(() => import("./components/EventDetails")); // Lazy loading EventDetails
+const EventDetails = lazy(() => import("./components/EventDetails"));
 
 function App() {
   const [currentView, setCurrentView] = useState("home");
@@ -77,7 +78,6 @@ function App() {
           )}
         </main>
 
-        {/* Conditionally render Team and Footer only if on Home page */}
         {currentView === "home" && (
           <>
             <Suspense fallback={<LoadingSpinner />}>
@@ -86,6 +86,9 @@ function App() {
             <Footer />
           </>
         )}
+
+        {/* Add Scroll-to-Top Button */}
+        <ScrollToTop />
       </div>
     </div>
   );
