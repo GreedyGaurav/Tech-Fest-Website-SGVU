@@ -11,18 +11,17 @@ const teamMembers = [
     linkedinUrl: "https://www.linkedin.com/in/kavya-sinsinwar-a80b52283",
   },
   {
-    name: "Gaurav Sharma",
-    role: "CSE Final Year",
-    image: "/assets/images/gaurav.jpg",
-    linkedinUrl: "https://www.linkedin.com/in/greedygaurav",
-  },
-  {
     name: "Ayush Kumar",
     role: "CSE Final Year",
     image: "/assets/images/ayush.jpg",
     linkedinUrl: "https://www.linkedin.com/in/ayushk1203",
   },
-
+  {
+    name: "Gaurav Sharma",
+    role: "CSE Final Year",
+    image: "/assets/images/gaurav.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/greedygaurav",
+  },
   {
     name: "Ekta Verma",
     role: "CSE Final Year",
@@ -37,7 +36,7 @@ const Team = () => {
       <div className="container px-4 mx-auto">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="mb-8 text-4xl font-bold text-white sm:text-5xl">
-            Technical Team
+            Web Team
           </h2>
 
           <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
