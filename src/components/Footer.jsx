@@ -21,8 +21,10 @@ const Footer = () => {
               <h3 className="mb-4 text-lg font-semibold text-gray-400">
                 ORGANIZING COMMITTEE
               </h3>
-              <p>Prof.(Dr.) Manish Sharma - +91 995 069 6855</p>
               <p>Prof.(Dr.) Neeraj Kumar - +91 941 427 9664</p>
+              <p>Prof.(Dr.) Sandhya Sharma - +91 988 791 1666</p>
+
+              <p>Prof.(Dr.) Ravindra Budania - +91 701 432 6092</p>
             </div>
           </div>
 
@@ -52,7 +54,7 @@ const Footer = () => {
               <p>SGVU, Mahal, Jagatpura</p>
               <p>Jaipur, Rajasthan - 302017</p>
               <a href="mailto:info@gyanvihar.org" className="hover:text-white">
-                info@gyanvihar.org
+                gvset@mygyanvihar.com
               </a>
             </div>
           </div>
