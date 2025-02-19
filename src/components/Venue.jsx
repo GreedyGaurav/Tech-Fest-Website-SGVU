@@ -16,14 +16,14 @@ gsap.registerPlugin(ScrollTrigger);
 const events = [
   {
     id: 1,
-    title: "BGMI Gaming",
+    title: "BGMI/Freefire Gaming",
     location: "SGVU",
     description:
       "Join the ultimate BGMI gaming showdown! Compete, conquer, and claim victory in an intense battle for glory!",
     time: "9:00 AM - 5:00 PM",
     registerUrl:
       "https://docs.google.com/forms/d/e/1FAIpQLScGlsHrmDRQxgK2SArAVXilc8iWEvGexKwl50kM4b_14-MdjA/viewform",
-    imageUrl: "/assets/images/3.avif",
+    imageUrl: "/assets/images/bfff.avif",
     details:
       "Step into the world of BGMI and compete in an adrenaline-pumping tournament! Players will showcase their strategic thinking, sharp reflexes, and teamwork to secure a place at the top. Whether you're a pro or a beginner, join for a fun-filled battle for the ultimate victory!",
   },
