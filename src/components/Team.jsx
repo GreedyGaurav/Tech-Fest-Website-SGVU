@@ -5,26 +5,26 @@ import { FaLinkedin } from "react-icons/fa"; // LinkedIn icon
 
 const teamMembers = [
   {
+    name: "Gaurav Sharma",
+    role: "Technical Lead",
+    image: "/assets/images/gaurav.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/greedygaurav",
+  },
+  {
     name: "Kavya Sinsinwar",
-    role: "CSE Final Year",
+    role: "Developer Lead",
     image: "/assets/images/kavya.jpg",
     linkedinUrl: "https://www.linkedin.com/in/kavya-sinsinwar-a80b52283",
   },
   {
     name: "Ayush Kumar",
-    role: "CSE Final Year",
+    role: "Developer",
     image: "/assets/images/ayush.jpg",
     linkedinUrl: "https://www.linkedin.com/in/ayushk1203",
   },
   {
-    name: "Gaurav Sharma",
-    role: "CSE Final Year",
-    image: "/assets/images/gaurav.jpg",
-    linkedinUrl: "https://www.linkedin.com/in/greedygaurav",
-  },
-  {
     name: "Ekta Verma",
-    role: "CSE Final Year",
+    role: "Designer",
     image: "/assets/images/ekta.jpg",
     linkedinUrl: "https://www.linkedin.com/in/ekta03",
   },
@@ -36,7 +36,7 @@ const Team = () => {
       <div className="container px-4 mx-auto">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="mb-8 text-4xl font-bold text-white sm:text-5xl">
-            Web Team
+            Technical Team
           </h2>
 
           <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
